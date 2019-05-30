@@ -252,8 +252,7 @@ div.form-check {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
-@
-include media-breakpoint-up (sm ) { .jumbotron {
+@include media-breakpoint-up (sm ) { .jumbotron {
 	display: block;
 }
 
