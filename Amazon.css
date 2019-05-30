@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+/* Colors
+--white: #ffffff;
+--darkBlue: #44566c;
+--lightGrey: #e1e5e9;
+--blue-grey: #8996a6;
+--pastelOrange: #faa856;
+--orange: #f98c1f;
+--383e4: 383e46;
+--darkBlue-Grey: #383e46;
+--darkGrey: #979797; */
+
+/* Style for "body" */
+body {
+	background-image: url("background.jpg");
+	width: 1627px;
+	height: 1089px;
+	background-size: cover;
+}
+
+/* Style for "label" */
+label {
+	width: 405px;
+	height: 20px;
+	margin-right: -25px;
+}
+
+/* Style for "text */
+p {
+	font-family: Open Sans, "Times New Roman", Times, serif;
+}
+
+.container {
+	float: left;
+}
+
+/* Style for "Jumbotron"  */
+.jumbotron {
+	float: left;
+	width: 50%;
+	height: 882px;
+	border: 1px solid #979797;
+	background-color: #ffffff;
+	padding-left: 50px;
+	margin-left: 10px;
+}
+
+/* Style for "LOGIN" */
+.LoginStyle {
+	width: 69px;
+	height: 44px;
+	color: #30363c;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 44px;
+	text-transform: uppercase;
+}
+
+/* Style for "margin right" */
+.marginRight {
+	margin-right: 250px;
+}
+
+/* Style for "padding S" */
+.paddingS {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+/* Style for "padding M" */
+.paddingM {
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.paddingBottom {
+	padding-bottom: 50px;
+}
+
+.paddingTop {
+	padding-top: 50px;
+}
+
+  /* Style for "AnmeldeBereich" */              
+.LoginScreen {
+	width: 496xp;
+	height: 882px;
+	border: 1px solid #979797;
+	background-color: #ffffff;
+}
+
+/* Style for "Link" */
+.link {
+	color: #8ab5eb;
+	font-family: "Open Sans";
+	font-size: 11px;
+	font-weight: 700;
+	font-decoration: underlined;
+}
+
+/* Style for "EmailForm" */
+.EmailForm {
+	width: 406px;
+	height: 75px;
+	border-radius: 4px;
+	border: 1px solid #e1e5e9;
+}
+
+/* Style for "Input" */
+input::placeholder {
+	padding-left: 5px;
+}
+
+/* Style for "bigger Font" */
+.biggerFont {
+	font-size: 16px;
+}
+
+/* Style for "Password Form" */
+.PasswordForm {
+	width: 406px;
+	height: 75px;
+	border-radius: 4px;
+	border: 1px solid #e1e5e9;
+}
+
+/* Style for "fine Print" */
+.finePrint {
+	width: 416px;
+	height: 42px;
+	color: #8996a6;
+	font-family: "Open Sans Semi Bold";
+	font-size: 9px;
+	font-weight: 600;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+.finePrintStyle {
+	padding-top: 70px;
+	padding-right: 85px;
+	text-align: center;
+}
+
+/* Style for "Anmelden" */
+.Header1 {
+	width: 176px;
+	height: 44px;
+	color: #383e46;
+	font-family: "Open Sans";
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 44px;
+}
+
+/* Style for "Neu bei Amazon" */
+.Header3 {
+	width: 160px;
+	height: 19px;
+	color: #383e46;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+
+/* Style for "Konto erstellen" */
+.createAccountStyle {
+	width: 143px;
+	height: 19px;
+	color: #30363c;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/* Style for "Angemeldet bleiben" Checkbox text */
+.stayLoggedIn {
+	width: 117px;
+	height: 23px;
+	color: #a2abb6;
+	font-family: "Open Sans";
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+div.form-check {
+	padding-bottom: 20px;
+}
+
+/* Style for "Details" */
+#Details {
+	color: #8ab5eb;
+	font-family: "Open Sans";
+	font-size: 11px;
+	font-weight: 700;
+	font-decoration: underlined;
+}
+
+/* Style for "Logo" */
+#Logo {
+	width: 282px;
+	height: 79px;
+}
+
+#paddingTop {
+	padding-top: 50px;
+}
+
+/* Style for "Input" */
+#Input {
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+	border: 1px solid #e1e5e9;
+}
+
+/* Style for "LoginButton" */
+#ButtonS {
+	width: 242px;
+	height: 53px;
+	box-shadow: -8px 12px 18px rgba(25, 42, 70, 0.12);
+	border-radius: 4px;
+	background-color: rgba(249, 140, 31, 0.75);
+}
+
+/* Style for "KontoErstellen" Button */
+#ButtonL {
+	width: 406px;
+	height: 75px;
+	box-shadow: -8px 12px 18px rgba(25, 42, 70, 0.12);
+	border-radius: 4px;
+	background-color: #faa856;
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+@
+include media-breakpoint-up (sm ) { .jumbotron {
+	display: block;
+}
+
+ 
+ @include media-breakpoint-up (md ) { .jumbotron {
+	display: block;
+}
